@@ -106,7 +106,7 @@ Giải pháp này áp dụng chiến thuật **Hybrid Model** kết hợp sức 
    - **Linear Regression:** Đóng vai trò học Xu hướng (Trend) và đà lạm phát/tăng trưởng dài hạn.
    - **Ensemble (LGBM + XGB):** Sử dụng hàm mất mát L1 (Absolute Error) để học Phần dư (Residuals), giúp mô hình linh hoạt bắt trúng các đỉnh (spikes) doanh thu mùa vụ mà không bị nhiễu bởi Outliers.
 4. **Kiểm chứng chặt chẽ (Validation):** Đánh giá hiệu năng bằng Out-of-Time Validation (giữ lại 60 ngày cuối năm 2022) với các chỉ số thực tế MAE, RMSE và R².
-5. **Dự báo & Xuất kết quả:** Đưa ra dự báo `Revenue` cho tập Test. Áp dụng Post-processing (Clip giá trị >= 0) để đảm bảo logic kinh doanh, sau đó xuất ra file `submission.csv`.
+5. **Dự báo & Xuất kết quả:** Đưa ra dự báo `Revenue` và `COGS` cho tập Test. Áp dụng Post-processing (Clip giá trị >= 0) để đảm bảo logic kinh doanh, sau đó xuất ra file `submission.csv`.
 
 **💡 Lưu ý về đường dẫn dữ liệu:** Đảm bảo các file `sales.csv`, `promotions.csv` và `sample_submission.csv` được đặt đúng trong thư mục được khai báo (ví dụ: biến `DATA_DIR = 'datathon-2026-round-1/'`). Nếu đang chạy theo cấu trúc thư mục khác, vui lòng cập nhật lại biến này trong block code đầu tiên của notebook.
 
