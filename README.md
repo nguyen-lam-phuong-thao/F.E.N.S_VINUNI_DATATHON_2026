@@ -6,9 +6,10 @@ Repository này lưu toàn bộ file làm bài cho vòng 1 của VinUni Datathon
 
 - `EDA.ipynb`: Notebook phân tích khám phá dữ liệu, trực quan hóa và rút ra insight.
 - `trac_nghiem.ipynb`: Notebook xử lý và trả lời các câu hỏi trắc nghiệm.
+- `revenue-forcasting.ipynb`: Forecasting cho bài toán dự báo `Revenue` và `COGS`.
+- `Report.pdf`: Báo cáo tổng hợp kết quả EDA và forecasting, trình bày các insight chính, biểu đồ quan trọng và khuyến nghị hành động cho doanh nghiệp.
 - `Đề thi Vòng 1.pdf`: Đề thi gốc của vòng 1.
 - `datathon-2026-round-1/`: Thư mục dữ liệu BTC cung cấp.
-- `revenue-forcasting.ipynb`:  Forecasting cho bài toán dự báo `Revenue` và `COGS`.
 
 ## 2. Cấu trúc thư mục
 
@@ -18,6 +19,7 @@ datathon_2026/
 ├── EDA.ipynb
 ├── trac_nghiem.ipynb
 ├── revenue-forcasting.ipynb
+├── Report.pdf
 ├── Đề thi Vòng 1.1.pdf
 └── datathon-2026-round-1/
     ├── baseline.ipynb
@@ -115,5 +117,6 @@ Giải pháp này áp dụng chiến thuật **Hybrid Model** kết hợp sức 
 - Từ `EDA.ipynb`: các bảng tóm tắt, biểu đồ và insight phục vụ báo cáo.
 - Từ `trac_nghiem.ipynb`: đáp án và cách tính cho các câu hỏi trắc nghiệm.
 - Từ `revenue-forcasting.ipynb`: file dự báo theo định dạng submission của bài toán forecast.
+- Từ `Report.pdf`: bản báo cáo cuối cùng tóm tắt các phát hiện chính từ EDA, kết quả forecast và khuyến nghị kinh doanh.
 
 
